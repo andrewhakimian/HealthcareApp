@@ -56,7 +56,7 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82137FDD104B400AA1C448D8D323B317 }}
           package: .
           
-env:                                            # <<-- Add environment variables here
+environment:                                            # <<-- Add environment variables here
   REACT_APP_API_URL: ${{ secrets.API_URL }}     # <<-- referencing the GitHub secrets
   REACT_APP_API_KEY: ${{ secrets.API_KEY }}     # <<-- created in Step 2
 jobs:
