@@ -65,7 +65,7 @@ jobs:
 
     defaults:                                             # <<-- Add default working directory
       run:                                                # <<-- here to ensure deployment 
-        working-directory: ./Humongous.Healthcare.Web/    # <<-- targets correct path.
+        working-directory: ./Humongous.Healthcare/    # <<-- targets correct path.
         
     steps:
     - uses: actions/checkout@v2
